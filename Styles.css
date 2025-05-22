@@ -1,0 +1,77 @@
+body{
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgb(255, 255, 255);
+color: #333;
+}
+
+header {
+background-color: #1c1c1c;
+color: #ffffff;
+padding: 1rem 2rem;
+}
+
+nav {
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+gap: 1.5rem;
+margin: 0;
+padding: 0;
+}
+
+nav a {
+color: #ffffff;
+text-decoration: none;
+}
+
+nav a:hover{
+color:#818181
+}
+
+.Inicio{
+background-color: #e0e0e0;
+padding: 4rem 2rem;
+text-align: center;
+}
+
+.Content{
+padding: 2rem;
+max-width: 900px;
+margin: auto;
+text-align: left;
+}
+.Footer{
+background-color: #1c1c1c;
+color: #ffffff;
+text-align: center;
+padding: 1%;
+font-size: small;
+}
+
+.Form{
+text-align: center;
+padding: 3%;
+}
+
+form{
+max-width: 700px;
+
+}
+
+.PresNosotros{
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+}
+
+.NuestroEquipo{
+text-align: center;
+
+}
